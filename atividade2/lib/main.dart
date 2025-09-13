@@ -1,11 +1,10 @@
 void main() {
-  
   String nome = "Pedro";
   int idade = 20;
-  double altura = 1.75;
+  double altura = 1.80;
   bool estudaFlutter = true;
 
-  if (idade >= 18) {
+  if (idade >= 20) {
     print("Você é maior de idade.");
   } else {
     print("Você é menor de idade.");
@@ -21,7 +20,7 @@ void main() {
   Map<String, int> materias = {
     "Estrutura de Dados": 30,
     "Banco de Dados": 25,
-    "Algoritmos": 40
+    "Algoritmos": 40,
   };
 
   print("Linguagens que gosto: $linguagens");
